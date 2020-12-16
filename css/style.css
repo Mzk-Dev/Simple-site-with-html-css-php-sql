@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+    .navbar-container {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+    .navbar-container .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+    .navbar-container .navbar-collapse{
+        align-items: flex-start;
+    }
+    .navbar-container .navbar-nav {
+        flex-direction: column ;
+    }
+} 
+@media (max-width: 768px){
+    .container-fluid{
+        height: 100vh;
+    }
+} 
+td{
+    word-wrap: break-word;
+}
